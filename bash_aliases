@@ -1,0 +1,8 @@
+alias open='xdg-open'
+alias gb='git branch'
+alias gs='git status'
+alias gc='git commit'
+alias gck='git checkout'
+alias gitpas='xclip -sel clip < ~/work/gitpas'
+alias ssh_uw='ssh y64zou@ecelinux.uwaterloo.ca'
+alias gitclean='T=$(git rev-parse --abbrev-ref HEAD) && git checkout master && git pull && git branch -d $T'
